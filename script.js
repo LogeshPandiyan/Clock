@@ -19,6 +19,7 @@ modeSwitch.addEventListener("click", () => {
   // check if the "dark" class is currently present on the body element
   const isDarkMode = body.classList.contains("dark");
   // set modeSwitch text based on "dark" class presence
+
   modeSwitch.textContent = isDarkMode ? "Light Mode" : "Dark Mode";
   // set localStorage "mode" item based on "dark" class presence
   localStorage.setItem("mode", isDarkMode ? "Dark Mode" : "Light Mode");
