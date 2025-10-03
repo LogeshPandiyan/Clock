@@ -37,5 +37,6 @@ const updateTime = () => {
   hourHand.style.transform = `rotate(${hrToDeg}deg)`;
 };
 
+
 setInterval(updateTime, 1000);
 updateTime();
